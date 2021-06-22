@@ -24,7 +24,7 @@ jobs:
       - run:
           command: npm start
           background: true
-      - run: npm run cy:pipeline
+      - run: npm run cy:record
 
 workflows:
   version: 2

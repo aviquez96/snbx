@@ -36,7 +36,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "cypress": "cypress open",
-    "cy:pipeline": "cypress run"
+    "cy:pipeline": "cypress run",
+    "cy:record": "cypress run --record --key d80f7595-e74d-4334-98e9-32da6b292eee"
   },
   "eslintConfig": {
     "extends": "react-app"
